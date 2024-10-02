@@ -1,4 +1,4 @@
-package com.hellobank.payments_api;
+package com.hellobank.paymentsapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.hellobank.payments_api;
+package com.hellobank.paymentsapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
