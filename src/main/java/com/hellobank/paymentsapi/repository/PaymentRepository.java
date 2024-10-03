@@ -12,9 +12,9 @@ import java.util.List;
 import java.util.UUID;
 
 @Repository
-public class PaymentsRepository {
+public class PaymentRepository {
     private static final ArrayList<Payment> payments = new ArrayList<>();
-    private static final Logger log = LoggerFactory.getLogger(PaymentsRepository.class);
+    private static final Logger log = LoggerFactory.getLogger(PaymentRepository.class);
 
     public Payment insertPayment(Payment payment) {
         log.info("Inserting payment: {}", payment);
