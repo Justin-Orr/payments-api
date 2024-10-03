@@ -15,10 +15,10 @@ import java.util.UUID;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class PaymentsRepositoryTest {
+class PaymentRepositoryTest {
 
-    private static final Logger log = LoggerFactory.getLogger(PaymentsRepositoryTest.class);
-    PaymentsRepository paymentRepository = new PaymentsRepository();
+    private static final Logger log = LoggerFactory.getLogger(PaymentRepositoryTest.class);
+    PaymentRepository paymentRepository = new PaymentRepository();
 
     @BeforeEach
     void clearRepositoryData() {
