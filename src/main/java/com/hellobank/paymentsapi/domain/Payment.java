@@ -1,14 +1,10 @@
 package com.hellobank.paymentsapi.domain;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 import java.util.Objects;
 import java.util.UUID;
 
 public class Payment {
-    @JsonProperty("payment_id")
     private UUID paymentId;
-    @JsonProperty("account_id")
     private UUID accountId;
     private double amount;
 
@@ -62,7 +58,8 @@ public class Payment {
     @Override
     public String toString() {
         return "Payment{" +
-                "id=" + paymentId +
+                "paymentId=" + paymentId +
+                "accountId=" + accountId +
                 ", amount=" + amount +
                 '}';
     }
